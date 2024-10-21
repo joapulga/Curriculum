@@ -9,7 +9,6 @@ const Resume = () => {
         <p className="mt-2 text-2xl text-gray-300 animate-fade-in-up">Full Stack Developer</p>
       </header>
 
-      {/* Contact Info */}
       <section className="w-full mb-12 max-w-7xl animate-fade-in-up">
         <div className="flex items-center justify-between text-sm text-gray-400">
           <div className="flex items-center space-x-4">
@@ -32,7 +31,6 @@ const Resume = () => {
         </div>
       </section>
 
-      {/* Summary Section */}
       <section className="w-full p-8 mb-12 rounded-lg shadow-lg bg-gradient-to-r from-gray-800 to-gray-700 max-w-7xl animate-fade-in-up">
         <h2 className="mb-4 text-3xl font-bold text-blue-500">Resumen</h2>
         <p className="text-gray-300">
@@ -40,7 +38,6 @@ const Resume = () => {
         </p>
       </section>
 
-      {/* Projects Section */}
       <section className="w-full p-8 mb-12 rounded-lg shadow-lg bg-gradient-to-r from-gray-800 to-gray-700 max-w-7xl animate-slide-up">
         <h2 className="mb-4 text-3xl font-bold text-blue-500">Proyectos</h2>
         <div className="mb-6">
@@ -57,10 +54,9 @@ const Resume = () => {
           </a>
         </div>
         
-        {/* New Project Section */}
         <div className="mb-6">
-          <h3 className="mb-2 text-2xl font-semibold text-gray-300">Sistema de Finanzas - Proyecto Actual</h3>
-          <p className="mb-4 text-sm text-gray-400">sep. 2024 - Actualidad | Henry Bootcamp</p>
+          <h3 className="mb-2 text-2xl font-semibold text-gray-300">Full Stack Web Developer - Sistema de Finanzas</h3>
+          <p className="mb-4 text-sm text-gray-400">ago. 2024 - oct. 2024 | Henry Bootcamp</p>
           <p className="mb-4 text-gray-300">
             Sistema de Finanzas es una aplicación web que permite la gestión de finanzas personales y empresariales. A través de la plataforma, los usuarios pueden registrar ingresos, egresos, generar reportes y visualizar gráficamente su situación financiera. 
           </p>
@@ -73,7 +69,6 @@ const Resume = () => {
         </div>
       </section>
 
-      {/* Technologies Section */}
       <section className="w-full p-8 mb-12 rounded-lg shadow-lg bg-gradient-to-r from-gray-800 to-gray-700 max-w-7xl animate-fade-in-up">
         <h2 className="mb-4 text-3xl font-bold text-blue-500">Tecnologías</h2>
         <ul className="text-gray-300 list-disc list-inside">
@@ -84,7 +79,6 @@ const Resume = () => {
         </ul>
       </section>
 
-      {/* Education Section */}
       <section className="w-full p-8 mb-12 rounded-lg shadow-lg bg-gradient-to-r from-gray-800 to-gray-700 max-w-7xl animate-slide-up">
         <h2 className="mb-4 text-3xl font-bold text-blue-500">Educación Profesional</h2>
         <p className="text-gray-300">
@@ -94,7 +88,6 @@ const Resume = () => {
         </p>
       </section>
 
-      {/* Languages Section */}
       <section className="w-full p-8 mb-12 rounded-lg shadow-lg bg-gradient-to-r from-gray-800 to-gray-700 max-w-7xl animate-fade-in-up">
         <h2 className="mb-4 text-3xl font-bold text-blue-500">Idiomas</h2>
         <p className="text-gray-300">
