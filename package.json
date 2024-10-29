@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "brew": "^0.0.8",
     "cloudflared": "^0.5.3",
     "next": "14.2.15",
